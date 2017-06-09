@@ -45,7 +45,7 @@ class Controller extends PhpObj {
             $route = isset($opts['recipe']) ? $opts['recipe'] : '';
             if (isset(static::$routes[$route])) {
                 $event = '\XREmitter\Events\\'.static::$routes[$route];
-                $service = new $event($this->repo);
+                $service = new $event();
                 $opts['context_lang'] = $opts['context_lang'] ?: 'en';
                 array_push($statements, $service->read($opts));
             }

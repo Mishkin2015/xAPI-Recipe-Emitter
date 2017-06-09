@@ -1,27 +1,8 @@
 <?php namespace XREmitter\Events;
-use \XREmitter\Repository as Repository;
 use \stdClass as PhpObj;
 
 abstract class Event extends PhpObj {
     protected static $verb_display;
-    protected $repo;
-
-    /**
-     * Constructs a new Event.
-     * @param repository $repo
-     */
-    public function __construct(Repository $repo) {
-        $this->repo = $repo;
-    }
-
-    /**
-     * Creates an event in the repository.
-     * @param [string => mixed] $event
-     * @return [string => mixed]
-     */
-    public function create(array $event) {
-        return $this->repo->createEvent($event);
-    }
 
     /**
      * Reads data for an event.
