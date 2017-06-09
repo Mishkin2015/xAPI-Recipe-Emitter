@@ -6,11 +6,6 @@ use \Locker\XApi\Statement as Statement;
 abstract class EventTest extends PhpUnitTestCase {
     protected static $xapiType = 'http://lrs.learninglocker.net/define/type/moodle/';
     protected static $recipe_name;
-    protected $repo;
-
-    public function __construct() {
-        $this->repo = new TestRepository(new TestRemoteLrs('', '1.0.1', '', ''));
-    }
 
     /**
      * Sets up the tests.

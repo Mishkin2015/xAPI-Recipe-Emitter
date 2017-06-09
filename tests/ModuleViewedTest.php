@@ -9,7 +9,7 @@ class ModuleViewedTest extends EventTest {
      * @override EventTest
      */
     public function setup() {
-        $this->event = new Event($this->repo);
+        $this->event = new Event();
     }
 
     protected function constructInput() {

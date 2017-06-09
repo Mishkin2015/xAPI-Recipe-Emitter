@@ -9,7 +9,7 @@ class ScormScoreRawSubmittedTest extends ScormEventTest {
      * @override EventTest
      */
     public function setup() {
-        $this->event = new Event($this->repo);
+        $this->event = new Event();
     }
 
     protected function assertOutput($input, $output) {
