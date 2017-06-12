@@ -1,3 +1,6 @@
+# Deprecated
+This Github repository has now been combined into the [main plugin repository](https://github.com/xAPI-vle/moodle-logstore_xapi).
+
 # [xAPI Recipe Emitter](https://github.com/LearningLocker/xAPI-Recipe-Emitter)
 > Emits [xAPI](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md) recipes as xAPI statements
 
@@ -6,7 +9,7 @@
 [![Latest Stable Version](https://poser.pugx.org/learninglocker/xapi-recipe-emitter/v/stable.svg)](https://packagist.org/packages/learninglocker/xapi-recipe-emitter)
 [![Total Downloads](https://poser.pugx.org/learninglocker/xapi-recipe-emitter/downloads.svg)](https://packagist.org/packages/learninglocker/xapi-recipe-emitter)
 [![License](https://poser.pugx.org/learninglocker/xapi-recipe-emitter/license.svg)](http://opensource.org/licenses/GPL-3.0)
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/LearningLocker/learninglocker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/LearningLocker/learninglocker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 - [Read documentation](https://github.com/LearningLocker/xAPI-Recipe-Emitter/blob/master/docs/readme.md).
 - [Report bugs, enhancements, and questions](https://github.com/LearningLocker/xAPI-Recipe-Emitter/blob/master/contributing.md#issue-templates).
